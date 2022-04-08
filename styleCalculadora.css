@@ -1,0 +1,61 @@
+/* calculadora */
+
+.calculator{
+position: relative;
+width: 267px;
+height: 521px;
+}
+
+/* Copo calculadora */
+
+.fundo{
+position: absolute;
+width: 267px;
+height: 521px;
+left: 0px;
+top: 0px;
+background: #FFFFFF;
+border-radius: 5px;
+}
+
+/* Botões */
+
+.calculadora-buttons{
+position: absolute;
+width: 44px;
+height: 44px;
+background: #D9D9D9;
+}
+
+.calculadora-buttons:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+/* Resultado */
+.resultado{
+position: relative;
+width: 267px;
+height: 124px;
+left: 0px;
+top: 0px;
+background: #A90000;
+border-radius: 5px;
+}
+
+/* Texto de resultado */
+
+.textoResultado{
+position: absolute;
+width: 198px;
+height: 44px;
+left: 47px;
+top: 40px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;
+
+color: #FFFFFF;
+}
